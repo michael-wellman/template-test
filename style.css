@@ -1,0 +1,10 @@
+html {
+	/* anytime you add padding - padding will stretch the page; prevents it from happening */
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	/* stretches the background to the full height of screen regardless of content */
+	min-height: 100vh;
+}
